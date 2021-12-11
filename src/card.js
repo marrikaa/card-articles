@@ -1,4 +1,4 @@
-function Article(props) {
+function Card(props) {
     return (
       <div>
         <div id="frame" className="flex-item">
@@ -11,4 +11,4 @@ function Article(props) {
     );
   }
 
-  export default Article;
+  export default Card;

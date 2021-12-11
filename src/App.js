@@ -1,4 +1,4 @@
-import Article from './articles';
+import Card from './card';
 import './App.css';
 
 let articles=[
@@ -48,7 +48,7 @@ function App() {
       <h1 id="tit">Today's articles</h1>
       <div className="flex-container">
           {
-            articles.map((article, i) => { return (<Article article={ article }/>) } )
+            articles.map((article, i) => { return (<Card article={ article }/>) } )
           }
       </div>
     </div>

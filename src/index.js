@@ -3,10 +3,25 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Article from './article';
+
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Link,
+  useParams
+} from "react-router-dom";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Routes>
+        <Route path="/home" element={<App/>}/>
+         <Route path="/articles/:id" element={<Article/>}/>
+      </Routes>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

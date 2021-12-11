@@ -12,7 +12,7 @@
   list-style: none;
 }
 
-#frame{
+.frame{
   padding: 30px;
   background-color: rgb(247, 220, 220);
   border-radius: 30px;
@@ -22,22 +22,39 @@
   margin: 20px;
   width: 400px;
   text-align: center;
-
-
 }
 
 #tit{
-
   width:600px;
   margin: 0 auto; 
   text-align:center
 }
 
-#img{
-  width: 50%;
-  height: 50%;
+.img{
+  width: 250px;
+  height: 250px;
 }
 
+.wholearticle{
+  padding: 15px;
+}
 
+.title{
+  text-align: center;
+}
+.bigimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: auto;
+}
+.summary{
+  text-align: center;
+}
+
+.fullarticle{
+  text-align: center;
+}
 
 
